@@ -1,16 +1,9 @@
 [package]
-name = "ferrischat_client"
+name = "client_args"
 version = "0.1.0"
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[workspace]
-members = [
-  "client_consts",
-  "client_core",
-  "client_args"
-]
-
 [dependencies]
-client_core = { path = "client_core" }
+clap = "2.33.3"
