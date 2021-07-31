@@ -1,8 +1,9 @@
+use crate::get_app::get_app;
 use crate::set_colors::set_colors;
 use fltk::{app, button::Button, frame::Frame, prelude::*, window::Window};
 
 pub fn entrypoint() {
-    let app = app::App::default();
+    let app = get_app();
     set_colors();
 
     let mut wind = Window::new(100, 100, 400, 300, "FerrisChat");
