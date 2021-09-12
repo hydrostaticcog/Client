@@ -1,5 +1,7 @@
 # FerrisChat Client
 
+# THIS CLIENT IS DEPRECATED!! PLEASE USE the [New Client](https://github.com/FerrisChat/Client)
+
 Fuck Discord's laggy, shitty, memory-eating client. It's a disgrace upon this world.
 
 Enter the world of Ferris! Ferris is here to save everyone from the hell that is Electron.
